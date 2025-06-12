@@ -375,14 +375,3 @@
 #     print('True')
 # else :
 #     print('False')
-
-
-a=int(input())
-n2=a//1000%10
-n3=a//100%10
-n4=a//10%10
-n5=a%10
-if n2 == n5 and n3 == n4 :
-    print('YES')
-else :
-    print('NO')
